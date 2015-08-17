@@ -1,0 +1,41 @@
+{
+  "name": "feathers-validate",
+  "version": "1.0.0",
+  "description": "validate feathers services",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holodex/feathers-validate.git"
+  },
+  "keywords": [
+    "feathers",
+    "validate",
+    "json-schema",
+    "json",
+    "schema",
+    "validation",
+    "validator"
+  ],
+  "author": "ahdinosaur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holodex/feathers-validate/issues"
+  },
+  "homepage": "https://github.com/holodex/feathers-validate#readme",
+  "dependencies": {
+    "is-my-json-valid": "^2.12.1"
+  },
+  "devDependencies": {
+    "async-each": "^0.1.6",
+    "feathers": "^1.1.0",
+    "feathers-hooks": "^0.5.0",
+    "feathers-memory": "^0.3.4",
+    "tape": "^4.2.0"
+  }
+}
